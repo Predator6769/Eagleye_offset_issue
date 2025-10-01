@@ -20,6 +20,7 @@ with the provided file in this repo.
 Then rebuild using:
 
 cd ~/autoware
+
 colcon build --symlink-install --packages-select pacmod_interface
 
 ---
@@ -43,9 +44,11 @@ autoware/src/sensor_kit/sample_sensor_kit_launch/
 - `sample_sensor_kit_launch`  
 
 with the provided ones in this repo.  
+
 Then rebuild these packages using:
 
 cd ~/autoware
+
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select sample_sensor_kit_description sample_sensor_kit_launch
 
 

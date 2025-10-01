@@ -10,7 +10,7 @@ After downloading, extract the ZIP file. It contains:
 
 ## NovAtel OEM7 Messages
 
-Since the GNSS system here is based on NovAtel, you need to clone and build the **novatel_oem7_msgs** package (if not availale already) to make these messages available.
+Since the GNSS system here is based on NovAtel, you need to clone and build the **novatel_oem7_msgs** package (if not availale already) to make these custom messages available.
 
 Repository: [novatel_oem7_driver](https://github.com/novatel/novatel_oem7_driver/tree/master/src)
 

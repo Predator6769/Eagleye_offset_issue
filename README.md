@@ -102,7 +102,7 @@ ros2 bag play test_field_eagleye_bag --remap /tf:=/b1 /tf_static:=/b2
 
 Run Autoware using autoware.launch.xml with the provided map data using (change map path accordingly):
 ```bash
-ros2 launch autoware_launch autoware.launch.xml map_path:=$HOME/map_location/test_field_map_latest vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
+ros2 launch autoware_launch autoware.launch.xml map_path:=$HOME/map_location/test_field_map_latest/ vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
 ```
 Disable **system**, **planning**, **perception**, and **control** modules in `autoware.launch.xml` since only localization is being tested.
 
